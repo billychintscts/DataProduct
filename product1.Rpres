@@ -1,0 +1,47 @@
+ShinyApplication
+========================================================
+author: Chin Tham Sang
+date:  12/9/2017
+autosize: true
+transition: rotate
+transition-speed: slow
+
+Overview
+========================================================
+
+Exploring analysis with several variables.
+
+- Sepal Length
+- Sepal Wifth
+- Petal Length
+- Petal Width
+
+The final application of the exploring analysis is at the following url, https://billychintscts.shinyapps.io/product/
+
+
+
+Data used
+========================================================
+The data used for this application is `IRIS` data set, Summary statistics of this dataset is as follows:
+
+
+```{r echo=FALSE}
+summary(iris)
+
+```
+
+Application functionality
+========================================================
+The application is drawing histogram plot of using one of the variables as column selected by a radio button.
+
+To allow the users to select the number of bins to adjust the visualization by a slider.
+
+Github repository:
+
+
+Scatter Plot to have a General Overview of the dataset.
+========================================================
+
+```{r, echo=FALSE}
+plot(iris)
+```
